@@ -65,7 +65,7 @@ const App = () => {
     <QueryClientProvider client={queryClient}>
       {/* query for caching */}
       <RouterProvider router={router} /> {/* for routing */}
-      <ReactQueryDevtools initialIsOpen={false} /> {/* devtools */}
+      {/* <ReactQueryDevtools initialIsOpen={false} /> devtools */}
     </QueryClientProvider>
   );
 };
